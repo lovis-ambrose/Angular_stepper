@@ -1,0 +1,5 @@
+<div class="container mt-5">
+    <div *ngIf="selected">
+        <ng-container [ngTemplateOutlet]="selected.content"></ng-container>
+    </div>
+</div>
